@@ -1,0 +1,40 @@
+{
+    "name": "TelebotV1",
+    "description": "Telegram BOT Downloader using Command Handler",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/neoxr/TelebotV1.git"
+    },
+    "main": "index.js",
+    "keywords": [
+        "telegram",
+        "nodejs",
+        "node.js",
+        "telegram bot",
+        "bot",
+        "api"
+    ],
+    "author": "Wildan Izzudin <neoxr@null.net>",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bluebird": "^3.4.0",
+        "body-parser": "^1.18.2",
+        "cfonts": "^2.9.3",
+        "chalk": "^4.1.1",
+        "cheerio": "^1.0.0-rc.10",
+        "debug": "^3.1.0",
+        "express": "^4.17.1",
+        "fs": "^0.0.1-security",
+        "node-fetch": "^2.6.1",
+        "path": "^0.12.7",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "jest": "^26.0.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
